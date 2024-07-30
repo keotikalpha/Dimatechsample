@@ -1,0 +1,56 @@
+.product {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-caption {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.product-caption p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.parallax-window {
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.carousel-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    margin: 0;
+    font-size: 18px;
+}
